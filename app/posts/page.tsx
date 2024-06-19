@@ -1,6 +1,5 @@
-
 import React, { Suspense } from "react";
-import PostsList from "../components/postsList";
+import PostsList from "../components/PostsList";
 import Form from "../components/Form";
 
 type Post = {
@@ -21,7 +20,7 @@ const page = async () => {
   return (
     <main className="text-center pt-32 px-5">
       <h1 className="text-4xl font-bold md:text-5xl">All posts</h1>
-      <Suspense fallback='Loading...'>
+      <Suspense fallback="Loading...">
         <PostsList />
       </Suspense>
     </main>
