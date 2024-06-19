@@ -17,7 +17,7 @@ const page = async ({ params }: { params: { id: string } }) => {
 
   return (
     <main className="px-7 text-center pt-24">
-      <h1 className="test-5xl font-semibold">{post.title}</h1>
+      <h1 className="text-5xl font-semibold">{post.title}</h1>
       <p className="max-w-[700]">{post.body}</p>
       <UpvoteBtn />
     </main>

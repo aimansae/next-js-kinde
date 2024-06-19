@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import PostsList from "../components/PostsList";
-import Form from "../components/Form";
 
 type Post = {
   id: number;
