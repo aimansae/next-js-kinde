@@ -4,6 +4,9 @@ This is a small full-stack blog project built with **Next.js 14 App Router**, **
 The goal of this project was to **practice conditional rendering,  server actions, and authentication ** with **Kinde**.
 
 
+My Github Repo could be find [here] (https://github.com/aimansae/next-js-kinde)
+An this is the link to the live [site]()
+
 ## Features
 
 - Authentication with [Kinde](https://kinde.com)
