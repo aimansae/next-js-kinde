@@ -42,7 +42,10 @@ const Header = () => {
       <nav>
         <ul className="flex gap-x-5 text-[14px]">
           {navLinks.map((link) => (
-            <li key={link.href}>
+            <li
+              key={link.href}
+              className={`${link.label === "Home" ? "hidden md:block" : ""}`}
+            >
               <Link
                 className={` ${
                   pathName === link.href
