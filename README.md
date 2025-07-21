@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Blog App
+
+This is a small full-stack blog project built with **Next.js 14 App Router**, **Prisma**, and **Kinde Auth**.  
+The goal of this project was to **practice conditional rendering,  server actions, and authentication ** with **Kinde**.
+
+
+## Features
+
+- Authentication with [Kinde](https://kinde.com)
+- Conditional rendering based on user login state
+- Create, edit, and delete blog posts through database
+- Auth-protected routes for post creation and deletion
+- Built using **Server Actions** (Next.js 14)
+- Simple upvote button (disabled for authors)
+- Tailwind CSS for styling
+
+## Learning Goals
+
+- Practice **conditional UI rendering**
+- Understand **authentication** flow with Kinde
+- Implement **server actions** in Next.js
+- Work with **relational data** using Prisma
+- Improve UX with real-time UI updates
+
+
+## Technologies used
+
+- Next.js [App Router](https://nextjs.org/docs/app)
+- [Prisma + PostgreSQL](https://www.prisma.io/nextjs) 
+- Kinde Auth (OAuth authentication)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
+- [TypeScript](https://nextjs.org/docs/pages/api-reference/config/typescript)
+
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/yourusername/blog-app.git
+cd blog-app
+npm install
+npx prisma generate
+npx prisma db push
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## Future Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Display `createdAt` and `updatedAt` timestamps for posts
+- Improved and responsive UI for mobile/desktop
+- Share post functionality (e.g., social links or copy URL)
+- Comment system
+- Post search and filtering
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+Special thanks to [Youyube Video (BiteGrad)](https://www.youtube.com/watch?v=vwSlYG7hFk0) for the helpful content and inspiration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
