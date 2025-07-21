@@ -52,7 +52,7 @@ npm run dev
 - Share post functionality (e.g., social links or copy URL)
 - Comment system
 - Post search and filtering
-
+- Tests with Jest
 
 
 ## Credits
