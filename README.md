@@ -6,7 +6,7 @@ The goal of this project was to **practice conditional rendering,  server action
 ![App Preview](./public/assets/amIResponsive.PNG)
 
 My Github Repo could be find [here] (https://github.com/aimansae/next-js-kinde)
-An this is the link to the live [site](https://next-js-kinde-bqxe.vercel.app/)
+An this is the link to the live [site](https://next-js-kinde.vercel.app/)
 
 ## Features
 
