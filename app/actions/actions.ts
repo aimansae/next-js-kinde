@@ -28,7 +28,7 @@ export async function createPostData(formData: FormData) {
   const body = formData.get("body") as string;
   console.log("logging data from ", title, body);
 
-  // create òpost
+  // create post
 
   await prisma.post.create({
     data: {
